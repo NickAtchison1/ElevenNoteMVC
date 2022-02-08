@@ -45,7 +45,7 @@ namespace ElevenNoteMVC.Data
             modelBuilder
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
-                .Add(new IdentityUserLoginConfiguration());
+                .Add(new IdentityUserRoleConfiguration());
            
                
         }
